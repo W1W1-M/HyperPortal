@@ -2,11 +2,13 @@ body{
 
 }
 header{
-
+  width: 100%;
+  text-align: center;
 }
 section{
 
 }
 footer{
-  
+  width: 100%;
+  text-align: center;
 }
