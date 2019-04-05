@@ -1,10 +1,13 @@
+html{
+  height: 100%;
+}
 body{
+  height: 100%;
+  background: linear-gradient(#040716, #2B3350);
   color: white;
-  background: no-repeat linear-gradient(black, dimgray);
 }
 header{
   width: 100%;
-  background: linear-gradient(black, dimgray);
   text-align: center;
 }
 section{
@@ -12,6 +15,8 @@ section{
 }
 footer{
   width: 100%;
-  background: linear-gradient(dimgray, black);
   text-align: center;
+}
+.portal_link{
+
 }
