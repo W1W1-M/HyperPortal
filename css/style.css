@@ -3,8 +3,10 @@ html{
 }
 body{
   height: 100%;
-  background: linear-gradient(#040716, #2B3350);
+  background: linear-gradient(-45deg, darkblue, midnightblue, royalblue, navy);
+  background-size: 400% 400%;
   color: white;
+  animation: body_background 3s ease forwards;
 }
 header{
   width: 100%;
@@ -19,4 +21,12 @@ footer{
 }
 .portal_link{
 
+}
+@keyframes body_background {
+  from{
+    background-position: 0% 50%;
+  }
+  to{
+    background-position: 100% 50%
+  }
 }
