@@ -20,6 +20,9 @@ footer{
   width: 100%;
   text-align: center;
 }
+#portal_name{
+  animation: portal_name 3s ease forwards;
+}
 .portal_link{
   font-size: 1.5em;
 }
@@ -29,5 +32,13 @@ footer{
   }
   to{
     background-position: 100% 50%
+  }
+}
+@keyframes portal_name {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
   }
 }
