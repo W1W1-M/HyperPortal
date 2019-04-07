@@ -6,12 +6,11 @@ body{
   background: linear-gradient(-45deg, darkblue, midnightblue, royalblue, navy);
   background-size: 400% 400%;
   color: white;
-  animation: body_background 3s ease forwards;
+  animation: body_background 2s ease forwards;
 }
 header{
   width: 100%;
   text-align: center;
-  font-size: 2em;
 }
 section{
 
@@ -21,10 +20,16 @@ footer{
   text-align: center;
 }
 #portal_name{
-  animation: portal_name 3s ease forwards;
+  font-size: 3em;
+  animation: portal_name 2s ease 0.5s both;
+}
+#portal{
+  text-align: center;
+  animation: portal 2s ease 1s both;
 }
 .portal_link{
   font-size: 1.5em;
+  text-align: center;
 }
 @keyframes body_background {
   from{
@@ -35,6 +40,14 @@ footer{
   }
 }
 @keyframes portal_name {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes portal {
   from {
     opacity: 0;
   }
