@@ -20,6 +20,12 @@ footer{
   width: 100%;
   text-align: center;
 }
+a:visited{
+  color: white;
+}
+a:hover{
+  color: black
+}
 #portal_name{
   font-size: 3em;
   animation: portal_name 2s ease 0.5s both;
