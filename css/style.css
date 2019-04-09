@@ -35,8 +35,12 @@ a:hover{
   flex-direction: row;
   justify-content: space-around;
 }
-#portal_img{
+#portal_imgs{
   text-align: center;
+}
+#portal_img{
+  max-width: 80vw;
+  height: auto;
   animation: portal 6s ease 1s infinite both alternate-reverse;
 }
 .portal_link{
