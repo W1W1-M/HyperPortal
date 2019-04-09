@@ -7,7 +7,7 @@ body{
   background-size: 400% 400%;
   color: white;
   font-family: sans-serif;
-  animation: body_background 2s ease forwards;
+  animation: body 2s ease forwards;
 }
 header{
   width: 100%;
@@ -37,7 +37,7 @@ footer{
   font-size: 1.5em;
   text-align: center;
 }
-@keyframes body_background {
+@keyframes body {
   from{
     opacity: 0;
     background-position: 0% 50%;
