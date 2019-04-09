@@ -20,11 +20,17 @@ footer{
   width: 100%;
   text-align: center;
 }
+a:link{
+  text-decoration: none;
+}
 a:visited{
   color: white;
 }
 a:hover{
-  color: black
+  color: black;
+}
+a:active{
+  color: grey;
 }
 #portal_name{
   font-size: 3em;
