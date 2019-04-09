@@ -24,9 +24,14 @@ footer{
   font-size: 3em;
   animation: portal_name 2s ease 0.5s both;
 }
-#portal{
+#portal_links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#portal_img{
   text-align: center;
-  animation: portal 4s ease 1s infinite both alternate-reverse;
+  animation: portal 6s ease 1s infinite both alternate-reverse;
 }
 .portal_link{
   font-size: 1.5em;
@@ -52,18 +57,18 @@ footer{
 }
 @keyframes portal {
   0% {
-    transform: rotate(45deg);
+    transform: rotate(0.25turn);
   }
   25%{
-    transform: rotate(180deg);
+    transform: rotate(0.5turn);
   }
   50%{
-    transform: rotate(90deg);
+    transform: rotate(0.25turn);
   }
   75%{
-    transform: rotate(360deg);
+    transform: rotate(1turn);
   }
   100%{
-    transform: rotate(270deg);
+    transform: rotate(2turn);
   }
 }
