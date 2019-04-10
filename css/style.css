@@ -1,13 +1,11 @@
 html{
-  height: 100%;
+
 }
 body{
-  height: 100%;
-  background: linear-gradient(-45deg, darkblue, midnightblue, royalblue, navy);
-  background-size: 400% 400%;
+  background: url("../images/stars.png"), linear-gradient(midnightblue, navy, dimgray);
   color: white;
   font-family: sans-serif;
-  animation: body 2s ease forwards;
+  animation: body 2s ease-in-out forwards;
 }
 header{
   width: 100%;
@@ -49,7 +47,7 @@ a:active{
 }
 #portal_img{
   margin: 5%;
-  animation: portal 6s ease 1s infinite both alternate-reverse;
+  animation: portal 6s ease-in-out 1s infinite both alternate-reverse;
 }
 .portal_link{
   width: 25%;
@@ -70,11 +68,11 @@ a:active{
 @keyframes body {
   from{
     opacity: 0;
-    background-position: 0% 50%;
+    background-position: 0% 0%;
   }
   to{
     opacity: 1;
-    background-position: 100% 50%
+    background-position: 100% 100%
   }
 }
 @keyframes portal_name {
