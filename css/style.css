@@ -39,20 +39,33 @@ a:active{
 }
 #portal_links{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
-#portal_imgs{
+#portal_slogan{
+  width: 100%;
   text-align: center;
 }
 #portal_img{
-  max-width: 80vw;
-  height: auto;
+  margin: 5%;
   animation: portal 6s ease 1s infinite both alternate-reverse;
 }
 .portal_link{
-  font-size: 1.5em;
+  width: 25%;
   text-align: center;
+}
+.portal_link:nth-child(2){
+  width: 40%;
+}
+.portal_link:nth-child(3){
+  width: 40%;
+}
+.portal_link:nth-child(7){
+  width: 40%;
+}
+.portal_link:nth-child(8){
+  width: 40%;
 }
 @keyframes body {
   from{
