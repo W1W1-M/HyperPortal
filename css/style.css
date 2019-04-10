@@ -18,8 +18,8 @@ section{
 }
 footer{
   width: 100%;
-  margin-top: 3em;
   text-align: center;
+  padding-bottom: 0.5em;
 }
 a:link{
   text-decoration: none;
