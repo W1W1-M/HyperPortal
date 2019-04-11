@@ -2,7 +2,7 @@ html{
 
 }
 body{
-  background: url("../images/stars.png"), linear-gradient(midnightblue, navy, dimgray);
+  background: url("../images/stars.png"), linear-gradient(#0E1050, #25257C, #505050);
   color: white;
   font-family:"Oswald", sans-serif;
   animation: body 2s ease-in-out forwards;
@@ -20,7 +20,7 @@ footer{
   padding-bottom: 0.5em;
 }
 a:link{
-  
+
 }
 a:visited{
   color: white;
