@@ -1,5 +1,6 @@
 # Hyper Portal
 A nice & simple **HTML5 & CSS3** *hyperlink* web portal
+----------
 ![Hyper Portal](images/screenshot.png)
 ----------
 ## Installation
