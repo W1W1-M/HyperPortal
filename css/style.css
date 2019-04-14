@@ -117,6 +117,18 @@ h4{
 }
 @media screen and (max-width: 768px) {
   .portal_link{
-    width: 40%;
+    width: 50%;
+  }
+  .portal_link:nth-child(2){
+    width: 50%;
+  }
+  .portal_link:nth-child(3){
+    width: 50%;
+  }
+  .portal_link:nth-child(7){
+    width: 50%;
+  }
+  .portal_link:nth-child(8){
+    width: 50%;
   }
 }
