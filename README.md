@@ -9,7 +9,7 @@ A nice & simple **HTML5 & CSS3** *hyperlink* web portal
 3. Change the portal title and slogan : see heading tags *portal_name* and *portal_slogan*
 ----------
 ## Version
-### v1
+### v1 - OK
 * Animated background - OK
 * Animated portal - OK
 * Responsive design - OK
@@ -25,4 +25,4 @@ A nice & simple **HTML5 & CSS3** *hyperlink* web portal
 * Add artwork source files to git repository
 ----------
 ## Licence
-Hyper Portal is released under the GNU GPL v3
+Hyper Portal is designed and coded by WiWi-M and released under the GNU GPL v3
