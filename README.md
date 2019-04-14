@@ -1,8 +1,9 @@
 # Hyper Portal
 A nice & simple **HTML5 & CSS3** *hyperlink* web portal
+![Hyper Portal](images/screenshot.png)
 ----------
-## Usage
-1. Clone this repository to your web root folder
+## Installation
+1. Download this repository to your web root folder
 2. Add your own hyperlinks directly in the index.html file, see **a** tags with *portal_link* class
 3. Change the portal title and slogan : see heading tags *portal_name* and *portal_slogan*
 ----------
@@ -20,3 +21,7 @@ A nice & simple **HTML5 & CSS3** *hyperlink* web portal
 * Add hyperlink animation
 * Add hyperlink dropdown description on mouse hover
 * Add other portal layouts
+* Add artwork source files to git repository
+----------
+## Licence
+Hyper Portal is released under the GNU GPL v3
