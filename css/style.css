@@ -115,3 +115,8 @@ h4{
     transform: rotate(2turn);
   }
 }
+@media screen and (max-width: 768px) {
+  .portal_link{
+    width: 40%;
+  }
+}
