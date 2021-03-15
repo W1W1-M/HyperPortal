@@ -2,7 +2,7 @@
 A nice & simple **HTML5 & CSS3** *hyperlink* web portal
 ----------
 ![Hyper Portal](images/screenshot.png)
-In action @[hyperportal.wiwi-m.dev](https://hyperportal.wiwi-m.dev)
+In action @[wiwi-m.mead.fr/hyperportal/](https://wiwi-m.mead.fr/hyperportal/)
 ----------
 ## Installation & Usage
 1. Download this repository to your web root folder
